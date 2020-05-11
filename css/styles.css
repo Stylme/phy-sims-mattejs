@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.render_container {
+    display: flex;
+    flex: 0 0 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos_container,
+.funciones_container {
+    display: flex;
+    flex: 0 0 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.funciones_container {}
