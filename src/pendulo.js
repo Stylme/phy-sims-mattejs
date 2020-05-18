@@ -95,11 +95,6 @@ var constr = Constraint.create({
 
 World.add(world, constr);
 
-
-
-
-
-
 var mouse = Mouse.create(render.canvas),
     mouseConstraint = MouseConstraint.create(engine, {
         mouse: mouse,
